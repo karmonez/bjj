@@ -7,7 +7,7 @@ function blue() {
       <div className=' bg-blue-100 h-screen w-full '>
           <h2 className=' text-4xl text-blue-800 font-mono pl-32 pt-20'>BLUE BELT</h2>
           <div className=' grid grid-cols-3 grid-rows-6 h-full w-10/12 pl-28 '>
-            <p className=' border-2 border-solid h-96 mr-8 mt-4 row-span-6 col-span-2 p-4 font-medium text-lg text-black bg-white border-sky-200 shadow-sky-100 shadow-[10px_10px_1px_0px_rgba(0,0,0,0.1)] pr-12'>De blue belt heeft de basis onder de knie. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+            <p className=' border-2 border-solid h-96 mr-8 mt-4 row-span-6 col-span-2 p-8 font-medium text-lg text-black bg-white border-sky-200 shadow-sky-100 shadow-[10px_10px_1px_0px_rgba(0,0,0,0.1)] pr-12 '>De blue belt is de tweede band in een reeks van vijf. Integenstelling tot de witte band wordt de blauwe band niet zo maar gegeven. Je moet het verdienen. Over het algemeen hebben instructeurs de vrijheid om zelf invulling te geven aan de voorwaarden en eisen waaraan voldoen moet worden om in aanmerking te komen voor de blauwe band. Echter zijn alle BJJ beoefenaars het met elkaar eens dat er een op z'n minst een degelijke kennis en skill van de basis vaardigheden moet zijn. De blue belt moet kunnen aanvallen en verdedigen. Het programma bestaat uit fundamentele vaardiheden die beheerst en uitgevoerd dienen te worden om gepromoveerd te kunnen worden tot BJJ BLUE BELT.</p>
             <div className='row-span-4'>
               <p className=' bg-white grid grid-cols-2 p-4 mt-4 ml-8 border-2 border-solid border-sky-200 shadow-sky-100 shadow-[10px_10px_1px_0px_rgba(0,0,0,0.1)]'>
                 <h3 className=' text-xl font-bold'>OFFENCE</h3>
@@ -31,7 +31,7 @@ function blue() {
               </p>
             </div>
             <div>
-              <button className=' ml-8 w-44 h-12 rounded-lg border-4 border-solid border-white bg-blue-400 text-white'><Link href="/program">PROGRAM</Link></button>  
+              <button className=' ml-8 w-44 h-12 rounded-lg border-4 border-solid border-white bg-blue-400 text-white hover:scale-105 transition duration-700 ease-in-out hover:border-blue-800 font-semibold'><Link href="/program">PROGRAM</Link></button>  
             </div>
           </div>
       </div>

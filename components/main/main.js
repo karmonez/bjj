@@ -11,6 +11,7 @@ function main() {
         src="/weg.jpg"
         layout="fill"
         objectFit="responsive"
+        alt="road"
       />
       <div className='flex justify-between p-8 '>
         <span className='relative text-5xl font-mono font-bold tracking-widest text-gray-500'>BJJ</span>
